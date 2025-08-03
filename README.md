@@ -1,16 +1,33 @@
-# ngo_app
+# Basti Ki Pathshala Foundation App
 
-A new Flutter project.
+A simple Flutter application for Basti Ki Pathshala Foundation, a grassroots NGO working to provide quality education to children in slum communities. This app is built to showcase the NGO’s mission and allow volunteers to register easily.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Home Page
+    - Displays NGO logo
+    - Welcome message
+    - Short description about the NGO
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Volunteer Form
+    - Input fields: Name, Phone, City
+    - Local storage of form entries (in memory)
+    - Displays a list of submitted volunteers
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Bottom Navigation Bar
+    - Seamless switching between Home and Volunteer form
+
+
+## 🧑‍🎓 About the NGO
+
+Basti Ki Pathshala Foundation is a government-registered organization under the Indian Societies Act of 1860. It focuses on breaking barriers in education for children living in slum areas by creating nurturing, inclusive learning environments.
+
+
+## 💻 Tech Stack
+
+- Flutter (Dart)
+- Local state management using `setState`
+- Clean UI with Material Design components
+
+
